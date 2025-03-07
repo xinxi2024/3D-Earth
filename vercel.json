@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "bash ./build.sh",
+  "outputDirectory": "out",
+  "installCommand": "npm ci --prefer-offline --no-audit",
+  "framework": "nextjs",
+  "github": {
+    "silent": true
+  }
+} 
