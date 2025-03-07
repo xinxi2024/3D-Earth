@@ -126,5 +126,3 @@ export default function EarthModelPage() {
   )
 }
 
-export const dynamic = 'force-static';
-

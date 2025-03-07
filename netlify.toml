@@ -12,5 +12,9 @@
   to = "/index.html"
   status = 200
 
+# 完全移除Next.js插件
+# [[plugins]]
+#  package = "@netlify/plugin-nextjs"
+
 [build.processing]
   skip_processing = true 
