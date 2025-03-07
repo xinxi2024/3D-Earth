@@ -3,7 +3,6 @@
 import { useState, useEffect, lazy, Suspense } from "react"
 import { Button } from "@/components/ui/button"
 import { Slider } from "@/components/ui/slider"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 // 使用懒加载来延迟加载3D地球组件
 const EarthScene = lazy(() => import("../earth-scene"))
@@ -62,7 +61,6 @@ export default function EarthModelPage() {
             </Suspense>
           </div>
 
-          {/* 控制面板在底部 */}
           <div className="bg-gradient-to-b from-black/50 to-slate-900/30 backdrop-blur-sm rounded-lg p-6 border border-indigo-900/20 shadow-lg">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-2xl font-semibold">控制面板</h2>
@@ -124,7 +122,4 @@ export default function EarthModelPage() {
       </div>
     </main>
   )
-}
-
-export const dynamic = 'force-static';
-
+} 
