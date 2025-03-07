@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# 设置正确的Node.js版本
+export NODE_VERSION=18.18.0
+
 # 清理旧文件
 rm -rf .next out node_modules package-lock.json
 
